@@ -57,6 +57,7 @@ body {
     line-height: 1.7;
     font-size: 1rem;
 }
+<<<<<<< HEAD
 .Reseaux{
     text-decoration: none;
     color: #000000;
@@ -69,6 +70,8 @@ ul li {
     list-style: disc;
     padding: 8px;
 }
+=======
+>>>>>>> 163fffb0b72c04ed18d08e5fd56a5342e4880325
 
 .about .btn {
     display: inline-block;
@@ -117,6 +120,7 @@ footer{
     padding-bottom: 50px;
     padding-top: 40px;
     
+<<<<<<< HEAD
 }
 @media (max-width: 600px) {
     .btn-groupe {
@@ -130,3 +134,6 @@ footer{
         text-align: center;
     }
 }
+=======
+}
+>>>>>>> 163fffb0b72c04ed18d08e5fd56a5342e4880325
