@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #619ce9;
+    height: 100%;
+}
+.about {
+    padding: 4rem 2rem;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.about-text {
+    max-width: 800px;
+    background: rgba(223, 95, 10, 0.15);
+    padding: 2rem;
+    border-radius: 24px;
+    background-color: rgb(252, 252, 252);
+}
+
+.about-text h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+.Reseaux{
+    text-decoration: none;
+    color: #000000;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li {
+    list-style: disc;
+    padding: 8px;
+}
+
+.about .btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background: chocolate;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.about .btn:hover {
+    background: #357ABD;
+    transform: translateY(-2px);
+}
+
+.about .btnNext {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background: chocolate;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.about .btnNext:hover {
+    background: #357ABD;
+    transform: translateY(-2px);
+}
+.btn-groupe {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    
+}
+@media (max-width: 600px) {
+    .btn-groupe {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about .btn,
+    .about .btnNext {
+        width: 100%;
+        text-align: center;
+    }
+}
