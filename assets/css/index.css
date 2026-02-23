@@ -14,7 +14,7 @@ header{
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #619ce9; /* optionnel */
-    height: 100%;
+    height: 100vh;
 }
 .cards {
     display: flex;
@@ -22,8 +22,8 @@ body {
     gap: 2rem;
     padding: 4rem 2rem;
     flex-wrap: wrap;
-    margin-top: 10vh;
-    margin-bottom: 25vh;
+    margin-top: 20vh;
+    margin-bottom: 35vh;
     
 }
 
@@ -76,6 +76,6 @@ footer{
     justify-content: center;
     background-color: #ffffff;
     padding-bottom: 50px;
-    padding-top: 25px;
+    padding-top: 50px;
     
 }
